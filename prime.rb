@@ -4,8 +4,10 @@ def prime?(int)
   
   arr.each do |ele|
     if (int % ele == 0)
+      puts "false"
       false
     else
+      puts "true"
       true
     end
   end
