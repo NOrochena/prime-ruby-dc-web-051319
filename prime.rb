@@ -4,10 +4,10 @@ def prime?(int)
   puts arr
   arr.each do |ele|
     if (int % ele == 0)
-      puts "F - #{ele}"
+      puts "F - #{ele} #{int}"
       false
     else
-      puts "T - #{ele}"
+      puts "T - #{ele}#{int}"
       true
     end
   end
