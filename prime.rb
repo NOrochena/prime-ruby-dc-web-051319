@@ -4,7 +4,7 @@ def prime?(int)
   puts arr
   arr.each do |ele|
     if (int % ele == 0)
-      puts "false"
+      puts "F - #{ele}"
       false
     else
       puts "true"
