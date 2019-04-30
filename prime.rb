@@ -11,4 +11,4 @@ def prime?(int)
   return true
 end
 
-prime?(24)
+prime?(97)
