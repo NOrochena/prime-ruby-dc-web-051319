@@ -8,6 +8,7 @@ def prime?(int)
       return false
     end
   end
+  return true
 end
 
 prime?(27)
