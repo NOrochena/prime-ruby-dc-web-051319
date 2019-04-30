@@ -1,5 +1,8 @@
 # Add  code here!
 def prime?(int)
+  if int < 0
+    return false
+  end
   arr = (2...int).to_a
   puts arr
   arr.each do |ele|
