@@ -6,9 +6,6 @@ def prime?(int)
     if (int % ele == 0)
       puts "F - #{ele} #{int}"
       return false
-    else
-      puts "T - #{ele}#{int}"
-      return true
     end
   end
 end
