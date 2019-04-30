@@ -7,7 +7,7 @@ def prime?(int)
       puts "F - #{ele}"
       false
     else
-      puts "true"
+      puts "T - #{ele}"
       true
     end
   end
