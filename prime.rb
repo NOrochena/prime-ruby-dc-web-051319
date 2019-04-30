@@ -4,4 +4,4 @@ def prime?(int)
   puts arr
 end
 
-prime?
+prime?(10)
